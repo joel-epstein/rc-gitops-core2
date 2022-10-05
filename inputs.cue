@@ -36,7 +36,7 @@ mesh: meshv1.#Mesh & {
 	}
 	spec: {
 		install_namespace: string | *"greymatter"
-		watch_namespaces:  [...string] | *["default", "plus", "examples", "nasa-3455"]
+		watch_namespaces:  [...string] | *["default", "plus", "examples", "foobar-1", "foobar-2", "foobar-3", "foobar-4", "foobar-5"]
 		images: {
 			proxy:       string | *"quay.io/greymatterio/gm-proxy:1.7.1"
 			catalog:     string | *"quay.io/greymatterio/gm-catalog:3.0.5"
